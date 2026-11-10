@@ -79,6 +79,10 @@ Forwarding from 127.0.0.1:8080 -> 8080
 
 kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d
 
+In argocd cli
+
+<img width="932" height="431" alt="Image" src="https://github.com/user-attachments/assets/a8290e42-1b40-4cba-a2d3-e2a934591ccd" />
+
 
 ## or another method
 
